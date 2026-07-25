@@ -1,8 +1,17 @@
 aid: constantinople
 name: Constantinople
-description: 'Constantinople is a company surfaced as a portfolio company of prosus-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Constantinople is a Sydney-based fintech providing an AI-native core-banking
+  platform that lets banks run product, technology, data, operations, and
+  compliance as a single modern fabric. It powers retail, business, and
+  embedded banking across accounts, payments, cards, lending, mortgages, and
+  term deposits, with headless APIs and SDKs, digital onboarding, an AI
+  concierge for customers, and the "Justinian" AI workbench for bankers. Risk
+  and compliance (fraud, financial-crime detection, regulatory reporting) are
+  built into the platform, which is SOC 2 Type II and ISO 27001 certified.
+  Constantinople is backed by Prosus Ventures (Series A, A$50M). The
+  developer/API surface is a gated B2B platform; enrichment here is sourced from
+  the company's public web presence.
 url: https://raw.githubusercontent.com/api-evangelist/constantinople/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - prosus-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://a-ap.storyblok.com/f/3000014/1128x191/a976c900db/constantinople-opengraph.jpg
 tags:
 - Company
 - Fintech
+- Banking
+- Core Banking
+- Banking as a Service
+- Embedded Finance
+- Payments
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,34 @@ maintainers:
 common:
 - type: Website
   url: https://cxnpl.com
+- type: Documentation
+  url: https://www.cxnpl.com/resources/documentation
+- type: Blog
+  url: https://www.cxnpl.com/resources/insights
+- type: Support
+  url: https://www.cxnpl.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.cxnpl.com/privacy-and-terms
+- type: TermsOfService
+  url: https://www.cxnpl.com/privacy-and-terms
+- type: LinkedIn
+  url: https://au.linkedin.com/company/cxnplio
+- type: DomainSecurity
+  url: security/constantinople-domain-security.yml
+- type: TrustCenter
+  url: security/constantinople-trust-center.yml
+- type: Compliance
+  url: security/constantinople-trust-center.yml
+- type: Conformance
+  url: conformance/constantinople-conformance.yml
+- type: Packages
+  url: packages/constantinople-packages.yml
+- type: WellKnown
+  url: well-known/constantinople-well-known.yml
+- type: LLMsTxt
+  url: llms/constantinople-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

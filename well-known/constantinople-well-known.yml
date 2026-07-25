@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: probed
+source: live HTTP probes of cxnpl.com base hosts
+description: >-
+  Probe of standard /.well-known/ discovery endpoints across Constantinople's
+  public web hosts. Constantinople runs a marketing site (cxnpl.com); its
+  developer/API surface is a gated B2B core-banking platform, so no public
+  well-known documents are exposed. Absence recorded below is valid data.
+probes:
+- host: cxnpl.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: www.cxnpl.com
+  path: /.well-known/security.txt
+  status: 404
+  file: null
+- host: cxnpl.com
+  path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- host: cxnpl.com
+  path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- host: cxnpl.com
+  path: /.well-known/api-catalog
+  status: 404
+  file: null
+- host: cxnpl.com
+  path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- host: cxnpl.com
+  path: /security.txt
+  status: 404
+  file: null

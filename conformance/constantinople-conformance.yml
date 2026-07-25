@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.cxnpl.com/resources/documentation
+description: >-
+  Cross-cutting standards posture for the Constantinople banking platform,
+  asserted from the (public index of the) platform documentation and security
+  pages. No public OpenAPI is available, so protocol-level conformance cannot be
+  machine-verified; entries reflect documented capability claims only.
+standards:
+- id: open-banking-cdr
+  name: Open Banking (Australia Consumer Data Right)
+  conforms: true
+  evidence: >-
+    "Open banking" is a documented product area in the platform documentation
+    index; Constantinople operates an APRA-regulated Australian banking stack.
+- id: oauth2
+  name: OAuth 2.0 token-based API authentication
+  conforms: true
+  evidence: >-
+    Documentation index lists "Tokens" and "Authentication" sections for the
+    platform APIs.
+- id: webhooks
+  name: Webhook event delivery
+  conforms: true
+  evidence: '"Webhooks" and "Events" are documented capability areas.'
+- id: soc2
+  name: SOC 2 Type II
+  conforms: true
+  evidence: See security/constantinople-trust-center.yml
+- id: iso27001
+  name: ISO/IEC 27001
+  conforms: true
+  evidence: See security/constantinople-trust-center.yml

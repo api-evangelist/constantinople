@@ -1,0 +1,42 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org (npm search "cxnpl")
+description: >-
+  First-party npm packages published under Constantinople's @cxnpl npm scope.
+  These are internal web-platform / Next.js tooling libraries, NOT client SDKs
+  for the Constantinople banking API. The banking-platform SDKs referenced in
+  the (gated) documentation — a React Native SDK and embedded webview — are not
+  published to public registries, so no first-party API client SDK is available
+  to catalog. No PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist, or
+  crates.io first-party packages were found.
+packages:
+- registry: npm
+  name: '@cxnpl/next-app-middleware'
+  url: https://www.npmjs.com/package/@cxnpl/next-app-middleware
+  official: true
+  api_client: false
+  kind: web-tooling
+  description: >-
+    Next.js app-router middleware library (a fork of whopio/next-app-middleware).
+- registry: npm
+  name: '@cxnpl/next-app-middleware-codegen'
+  url: https://www.npmjs.com/package/@cxnpl/next-app-middleware-codegen
+  official: true
+  api_client: false
+  kind: web-tooling
+  description: Code generator for @cxnpl/next-app-middleware.
+- registry: npm
+  name: '@cxnpl/next-app-middleware-runtime'
+  url: https://www.npmjs.com/package/@cxnpl/next-app-middleware-runtime
+  official: true
+  api_client: false
+  kind: web-tooling
+  description: Runtime types and ejected router for @cxnpl/next-app-middleware.
+candidates:
+- name: React Native SDK
+  source: https://www.cxnpl.com/resources/documentation
+  status: documented-not-published
+  note: >-
+    Listed under "SDKs & Apps" in the platform documentation index (React Native
+    SDK, embedded webview) but not published to any public package registry;
+    distributed to licensed banking customers only.
