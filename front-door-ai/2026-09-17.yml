@@ -1,0 +1,27 @@
+# Front Door AI Index — constantinople — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: constantinople
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: cxnpl.com
+  final_host: www.cxnpl.com
+  ownership: own
+  owner: constantinople
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 14
+  host_score: 14
+  density: 19.91
+  words: 703
+  tiers:
+    agentic: 2
+    core: 12
+    model: 0
+  ambiguous: 2
+  top_terms:
+    AI: 12
+    AI agent: 2
+    agent: 2
